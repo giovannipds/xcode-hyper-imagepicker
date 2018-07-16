@@ -11,13 +11,19 @@ import ImagePicker
 
 class ViewController: UIViewController, ImagePickerDelegate {
     
-    let imagePickerController = ImagePickerController()
+    var configuration = Configuration()
+    var imagePicker: ImagePickerController!
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        imagePickerController.delegate = self
-        imagePickerController.imageLimit = 1
+        configuration.doneButtonTitle = "Acabei"
+        configuration.noImagesTitle = "Desculpe, nada de imagens aqui!"
+        configuration.recordLocation = false
+        imagePicker = ImagePickerController(configuration: configuration)
+        imagePicker.delegate = self
+        imagePicker.imageLimit = 1
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,17 +32,17 @@ class ViewController: UIViewController, ImagePickerDelegate {
     }
 
     @IBAction func pickImage(_ sender: UIButton) {
-        present(imagePickerController, animated: true, completion: nil)
+        present(imagePicker, animated: true, completion: nil)
     }
     
     func wrapperDidPress(_ imagePicker: ImagePickerController, images: [UIImage]) {
         print("wrapper did press")
-        dismiss(animated: true, completion: nil)
     }
     
     func doneButtonDidPress(_ imagePicker: ImagePickerController, images: [UIImage]) {
         print("done did press")
         dismiss(animated: true, completion: nil)
+        imageView.image = images[0]
     }
     
     func cancelButtonDidPress(_ imagePicker: ImagePickerController) {

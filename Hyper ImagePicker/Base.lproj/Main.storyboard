@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qTQ-gt-1E6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzg-PM-fBi">
                                 <rect key="frame" x="150" y="318" width="75" height="30"/>
                                 <state key="normal" title="Pick Image"/>
@@ -29,13 +32,21 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Zzg-PM-fBi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8QI-qa-kbY"/>
+                            <constraint firstItem="qTQ-gt-1E6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DJS-fc-l2O"/>
                             <constraint firstItem="Zzg-PM-fBi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IV9-hb-zaC"/>
+                            <constraint firstItem="qTQ-gt-1E6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OpG-gU-lcn"/>
+                            <constraint firstAttribute="trailing" secondItem="qTQ-gt-1E6" secondAttribute="trailing" id="hhK-Hu-5dc"/>
+                            <constraint firstItem="qTQ-gt-1E6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nkL-yh-vxT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="qTQ-gt-1E6" id="LaN-Vb-egT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
