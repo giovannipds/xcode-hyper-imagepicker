@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD42822020FCF3DC00B57FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42821F20FCF3DC00B57FFB /* AppDelegate.swift */; };
+		AD42822220FCF3DC00B57FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42822120FCF3DC00B57FFB /* ViewController.swift */; };
+		AD42822520FCF3DC00B57FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42822320FCF3DC00B57FFB /* Main.storyboard */; };
+		AD42822720FCF3DF00B57FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD42822620FCF3DF00B57FFB /* Assets.xcassets */; };
+		AD42822A20FCF3DF00B57FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42822820FCF3DF00B57FFB /* LaunchScreen.storyboard */; };
+		AD42823520FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42823420FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift */; };
+		AD42824020FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42823F20FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD42823120FCF3DF00B57FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42821420FCF3DC00B57FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42821B20FCF3DC00B57FFB;
+			remoteInfo = "Hyper ImagePicker";
+		};
+		AD42823C20FCF3DF00B57FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42821420FCF3DC00B57FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42821B20FCF3DC00B57FFB;
+			remoteInfo = "Hyper ImagePicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD42821C20FCF3DC00B57FFB /* Hyper ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyper ImagePicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42821F20FCF3DC00B57FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD42822120FCF3DC00B57FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD42822420FCF3DC00B57FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD42822620FCF3DF00B57FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD42822920FCF3DF00B57FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD42822B20FCF3DF00B57FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD42823020FCF3DF00B57FFB /* Hyper ImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyper ImagePickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42823420FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyper_ImagePickerTests.swift; sourceTree = "<group>"; };
+		AD42823620FCF3DF00B57FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD42823B20FCF3DF00B57FFB /* Hyper ImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyper ImagePickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42823F20FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyper_ImagePickerUITests.swift; sourceTree = "<group>"; };
+		AD42824120FCF3DF00B57FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD42821920FCF3DC00B57FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42822D20FCF3DF00B57FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42823820FCF3DF00B57FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD42821320FCF3DC00B57FFB = {
+			isa = PBXGroup;
+			children = (
+				AD42821E20FCF3DC00B57FFB /* Hyper ImagePicker */,
+				AD42823320FCF3DF00B57FFB /* Hyper ImagePickerTests */,
+				AD42823E20FCF3DF00B57FFB /* Hyper ImagePickerUITests */,
+				AD42821D20FCF3DC00B57FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD42821D20FCF3DC00B57FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD42821C20FCF3DC00B57FFB /* Hyper ImagePicker.app */,
+				AD42823020FCF3DF00B57FFB /* Hyper ImagePickerTests.xctest */,
+				AD42823B20FCF3DF00B57FFB /* Hyper ImagePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD42821E20FCF3DC00B57FFB /* Hyper ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AD42821F20FCF3DC00B57FFB /* AppDelegate.swift */,
+				AD42822120FCF3DC00B57FFB /* ViewController.swift */,
+				AD42822320FCF3DC00B57FFB /* Main.storyboard */,
+				AD42822620FCF3DF00B57FFB /* Assets.xcassets */,
+				AD42822820FCF3DF00B57FFB /* LaunchScreen.storyboard */,
+				AD42822B20FCF3DF00B57FFB /* Info.plist */,
+			);
+			path = "Hyper ImagePicker";
+			sourceTree = "<group>";
+		};
+		AD42823320FCF3DF00B57FFB /* Hyper ImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42823420FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift */,
+				AD42823620FCF3DF00B57FFB /* Info.plist */,
+			);
+			path = "Hyper ImagePickerTests";
+			sourceTree = "<group>";
+		};
+		AD42823E20FCF3DF00B57FFB /* Hyper ImagePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42823F20FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift */,
+				AD42824120FCF3DF00B57FFB /* Info.plist */,
+			);
+			path = "Hyper ImagePickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD42821B20FCF3DC00B57FFB /* Hyper ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42824420FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePicker" */;
+			buildPhases = (
+				AD42821820FCF3DC00B57FFB /* Sources */,
+				AD42821920FCF3DC00B57FFB /* Frameworks */,
+				AD42821A20FCF3DC00B57FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hyper ImagePicker";
+			productName = "Hyper ImagePicker";
+			productReference = AD42821C20FCF3DC00B57FFB /* Hyper ImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD42822F20FCF3DF00B57FFB /* Hyper ImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42824720FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePickerTests" */;
+			buildPhases = (
+				AD42822C20FCF3DF00B57FFB /* Sources */,
+				AD42822D20FCF3DF00B57FFB /* Frameworks */,
+				AD42822E20FCF3DF00B57FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42823220FCF3DF00B57FFB /* PBXTargetDependency */,
+			);
+			name = "Hyper ImagePickerTests";
+			productName = "Hyper ImagePickerTests";
+			productReference = AD42823020FCF3DF00B57FFB /* Hyper ImagePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD42823A20FCF3DF00B57FFB /* Hyper ImagePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42824A20FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePickerUITests" */;
+			buildPhases = (
+				AD42823720FCF3DF00B57FFB /* Sources */,
+				AD42823820FCF3DF00B57FFB /* Frameworks */,
+				AD42823920FCF3DF00B57FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42823D20FCF3DF00B57FFB /* PBXTargetDependency */,
+			);
+			name = "Hyper ImagePickerUITests";
+			productName = "Hyper ImagePickerUITests";
+			productReference = AD42823B20FCF3DF00B57FFB /* Hyper ImagePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD42821420FCF3DC00B57FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Ezoom;
+				TargetAttributes = {
+					AD42821B20FCF3DC00B57FFB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AD42822F20FCF3DF00B57FFB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AD42821B20FCF3DC00B57FFB;
+					};
+					AD42823A20FCF3DF00B57FFB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AD42821B20FCF3DC00B57FFB;
+					};
+				};
+			};
+			buildConfigurationList = AD42821720FCF3DC00B57FFB /* Build configuration list for PBXProject "Hyper ImagePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD42821320FCF3DC00B57FFB;
+			productRefGroup = AD42821D20FCF3DC00B57FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD42821B20FCF3DC00B57FFB /* Hyper ImagePicker */,
+				AD42822F20FCF3DF00B57FFB /* Hyper ImagePickerTests */,
+				AD42823A20FCF3DF00B57FFB /* Hyper ImagePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD42821A20FCF3DC00B57FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42822A20FCF3DF00B57FFB /* LaunchScreen.storyboard in Resources */,
+				AD42822720FCF3DF00B57FFB /* Assets.xcassets in Resources */,
+				AD42822520FCF3DC00B57FFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42822E20FCF3DF00B57FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42823920FCF3DF00B57FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD42821820FCF3DC00B57FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42822220FCF3DC00B57FFB /* ViewController.swift in Sources */,
+				AD42822020FCF3DC00B57FFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42822C20FCF3DF00B57FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42823520FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42823720FCF3DF00B57FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42824020FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD42823220FCF3DF00B57FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42821B20FCF3DC00B57FFB /* Hyper ImagePicker */;
+			targetProxy = AD42823120FCF3DF00B57FFB /* PBXContainerItemProxy */;
+		};
+		AD42823D20FCF3DF00B57FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42821B20FCF3DC00B57FFB /* Hyper ImagePicker */;
+			targetProxy = AD42823C20FCF3DF00B57FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD42822320FCF3DC00B57FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42822420FCF3DC00B57FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD42822820FCF3DF00B57FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42822920FCF3DF00B57FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD42824220FCF3DF00B57FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD42824320FCF3DF00B57FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD42824520FCF3DF00B57FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CTC2EJLE;
+				INFOPLIST_FILE = "Hyper ImagePicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ezoom.Hyper-ImagePicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD42824620FCF3DF00B57FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CTC2EJLE;
+				INFOPLIST_FILE = "Hyper ImagePicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ezoom.Hyper-ImagePicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD42824820FCF3DF00B57FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CTC2EJLE;
+				INFOPLIST_FILE = "Hyper ImagePickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ezoom.Hyper-ImagePickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyper ImagePicker.app/Hyper ImagePicker";
+			};
+			name = Debug;
+		};
+		AD42824920FCF3DF00B57FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CTC2EJLE;
+				INFOPLIST_FILE = "Hyper ImagePickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ezoom.Hyper-ImagePickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyper ImagePicker.app/Hyper ImagePicker";
+			};
+			name = Release;
+		};
+		AD42824B20FCF3DF00B57FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CTC2EJLE;
+				INFOPLIST_FILE = "Hyper ImagePickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ezoom.Hyper-ImagePickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hyper ImagePicker";
+			};
+			name = Debug;
+		};
+		AD42824C20FCF3DF00B57FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CTC2EJLE;
+				INFOPLIST_FILE = "Hyper ImagePickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ezoom.Hyper-ImagePickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hyper ImagePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD42821720FCF3DC00B57FFB /* Build configuration list for PBXProject "Hyper ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42824220FCF3DF00B57FFB /* Debug */,
+				AD42824320FCF3DF00B57FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42824420FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42824520FCF3DF00B57FFB /* Debug */,
+				AD42824620FCF3DF00B57FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42824720FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42824820FCF3DF00B57FFB /* Debug */,
+				AD42824920FCF3DF00B57FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42824A20FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42824B20FCF3DF00B57FFB /* Debug */,
+				AD42824C20FCF3DF00B57FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD42821420FCF3DC00B57FFB /* Project object */;
+}
