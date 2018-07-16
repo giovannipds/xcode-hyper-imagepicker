@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095AB1B936FF74B47A55D539 /* Pods_Hyper_ImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595646343D7D40A6D97C8684 /* Pods_Hyper_ImagePicker.framework */; };
+		9B41B360683947E15588375E /* Pods_Hyper_ImagePickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81188106D5F58FEA7101A73 /* Pods_Hyper_ImagePickerTests.framework */; };
 		AD42822020FCF3DC00B57FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42821F20FCF3DC00B57FFB /* AppDelegate.swift */; };
 		AD42822220FCF3DC00B57FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42822120FCF3DC00B57FFB /* ViewController.swift */; };
 		AD42822520FCF3DC00B57FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42822320FCF3DC00B57FFB /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		AD42822A20FCF3DF00B57FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42822820FCF3DF00B57FFB /* LaunchScreen.storyboard */; };
 		AD42823520FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42823420FCF3DF00B57FFB /* Hyper_ImagePickerTests.swift */; };
 		AD42824020FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42823F20FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift */; };
+		F10C12F4A9188F54421B4F02 /* Pods_Hyper_ImagePickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D94681BA7B3C307959115B4 /* Pods_Hyper_ImagePickerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D94681BA7B3C307959115B4 /* Pods_Hyper_ImagePickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hyper_ImagePickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDD9A2CE9C07004AF8F179E /* Pods-Hyper ImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper ImagePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hyper ImagePicker/Pods-Hyper ImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		38632CB379BEFBEC60A6561A /* Pods-Hyper ImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper ImagePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hyper ImagePicker/Pods-Hyper ImagePicker.release.xcconfig"; sourceTree = "<group>"; };
+		541B44E3E760E09A6801456A /* Pods-Hyper ImagePickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper ImagePickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hyper ImagePickerUITests/Pods-Hyper ImagePickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		595646343D7D40A6D97C8684 /* Pods_Hyper_ImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hyper_ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF72D98E0CB8369ABEEF820 /* Pods-Hyper ImagePickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper ImagePickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hyper ImagePickerTests/Pods-Hyper ImagePickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACF0BCA45FA04493FAD529B0 /* Pods-Hyper ImagePickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper ImagePickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hyper ImagePickerTests/Pods-Hyper ImagePickerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD42821C20FCF3DC00B57FFB /* Hyper ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyper ImagePicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD42821F20FCF3DC00B57FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD42822120FCF3DC00B57FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		AD42823B20FCF3DF00B57FFB /* Hyper ImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyper ImagePickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD42823F20FCF3DF00B57FFB /* Hyper_ImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyper_ImagePickerUITests.swift; sourceTree = "<group>"; };
 		AD42824120FCF3DF00B57FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF14DEE00F673CBF2D53DAE1 /* Pods-Hyper ImagePickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper ImagePickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hyper ImagePickerUITests/Pods-Hyper ImagePickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E81188106D5F58FEA7101A73 /* Pods_Hyper_ImagePickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hyper_ImagePickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AB1B936FF74B47A55D539 /* Pods_Hyper_ImagePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B41B360683947E15588375E /* Pods_Hyper_ImagePickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10C12F4A9188F54421B4F02 /* Pods_Hyper_ImagePickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87975027EB12E048E188F451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				595646343D7D40A6D97C8684 /* Pods_Hyper_ImagePicker.framework */,
+				E81188106D5F58FEA7101A73 /* Pods_Hyper_ImagePickerTests.framework */,
+				1D94681BA7B3C307959115B4 /* Pods_Hyper_ImagePickerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD42821320FCF3DC00B57FFB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				AD42823320FCF3DF00B57FFB /* Hyper ImagePickerTests */,
 				AD42823E20FCF3DF00B57FFB /* Hyper ImagePickerUITests */,
 				AD42821D20FCF3DC00B57FFB /* Products */,
+				CC7402CF3164AC8522D0137F /* Pods */,
+				87975027EB12E048E188F451 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "Hyper ImagePickerUITests";
 			sourceTree = "<group>";
 		};
+		CC7402CF3164AC8522D0137F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EDD9A2CE9C07004AF8F179E /* Pods-Hyper ImagePicker.debug.xcconfig */,
+				38632CB379BEFBEC60A6561A /* Pods-Hyper ImagePicker.release.xcconfig */,
+				ACF0BCA45FA04493FAD529B0 /* Pods-Hyper ImagePickerTests.debug.xcconfig */,
+				5EF72D98E0CB8369ABEEF820 /* Pods-Hyper ImagePickerTests.release.xcconfig */,
+				541B44E3E760E09A6801456A /* Pods-Hyper ImagePickerUITests.debug.xcconfig */,
+				BF14DEE00F673CBF2D53DAE1 /* Pods-Hyper ImagePickerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD42824420FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePicker" */;
 			buildPhases = (
+				89C4964C53523153339887B3 /* [CP] Check Pods Manifest.lock */,
 				AD42821820FCF3DC00B57FFB /* Sources */,
 				AD42821920FCF3DC00B57FFB /* Frameworks */,
 				AD42821A20FCF3DC00B57FFB /* Resources */,
+				1CB1261EF556CE2F929AB089 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD42824720FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePickerTests" */;
 			buildPhases = (
+				E5C1201269A0C3C482256ACB /* [CP] Check Pods Manifest.lock */,
 				AD42822C20FCF3DF00B57FFB /* Sources */,
 				AD42822D20FCF3DF00B57FFB /* Frameworks */,
 				AD42822E20FCF3DF00B57FFB /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD42824A20FCF3DF00B57FFB /* Build configuration list for PBXNativeTarget "Hyper ImagePickerUITests" */;
 			buildPhases = (
+				0E5200824C4968C832A1FCE6 /* [CP] Check Pods Manifest.lock */,
 				AD42823720FCF3DF00B57FFB /* Sources */,
 				AD42823820FCF3DF00B57FFB /* Frameworks */,
 				AD42823920FCF3DF00B57FFB /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5200824C4968C832A1FCE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hyper ImagePickerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB1261EF556CE2F929AB089 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hyper ImagePicker/Pods-Hyper ImagePicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hyper ImagePicker/Pods-Hyper ImagePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C4964C53523153339887B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hyper ImagePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C1201269A0C3C482256ACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hyper ImagePickerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD42821820FCF3DC00B57FFB /* Sources */ = {
@@ -428,6 +547,7 @@
 		};
 		AD42824520FCF3DF00B57FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDD9A2CE9C07004AF8F179E /* Pods-Hyper ImagePicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +566,7 @@
 		};
 		AD42824620FCF3DF00B57FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38632CB379BEFBEC60A6561A /* Pods-Hyper ImagePicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +585,7 @@
 		};
 		AD42824820FCF3DF00B57FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF0BCA45FA04493FAD529B0 /* Pods-Hyper ImagePickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +607,7 @@
 		};
 		AD42824920FCF3DF00B57FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF72D98E0CB8369ABEEF820 /* Pods-Hyper ImagePickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +629,7 @@
 		};
 		AD42824B20FCF3DF00B57FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541B44E3E760E09A6801456A /* Pods-Hyper ImagePickerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +650,7 @@
 		};
 		AD42824C20FCF3DF00B57FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF14DEE00F673CBF2D53DAE1 /* Pods-Hyper ImagePickerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

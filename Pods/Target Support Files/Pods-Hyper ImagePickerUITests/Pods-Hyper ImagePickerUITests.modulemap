@@ -1,0 +1,6 @@
+framework module Pods_Hyper_ImagePickerUITests {
+  umbrella header "Pods-Hyper ImagePickerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
